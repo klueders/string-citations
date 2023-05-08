@@ -44,7 +44,7 @@ class Verweis:
     
     Usage:
     ----------
-    # example "BVerfGE 58, 300 [336]":
+    example "BVerfGE 58, 300 [336]":
     obj = Verweis(band="58", anfang="300", ref="336")
     obj
 
@@ -127,7 +127,7 @@ class Verweiskette:
     
     Usage:
     ----------
-    # example: "BVerfGE 37, 132 [140]; 50, 290 [339]; 52, 1 [31]"
+    example: "BVerfGE 37, 132 [140]; 50, 290 [339]; 52, 1 [31]"
 
     Verweiskette([Verweis(band="37", anfang="132", ref="140"),
                   Verweis(band="50", anfang="290", ref="339"),
